@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Tinos:wght@700&display=swap');
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+ 	padding: 0;
+}
+
+html {
+	font-size: 10px;
+}
+
+.body {
+	width: 144rem;
+	font-family: 'Tinos', serif;
+	font-size: 2rem;
+}
+
+.header {
+	height: 6rem;
+	line-height: 6rem;
+	background-color: lightblue;
+	color: gray;
+	text-align: right;
+	padding-right: 10rem;
+}
+
+.mainsection {
+	text-align: center;
+	padding: 5rem 0;
+}
+.column {
+	width: 40rem;
+	display: inline-block;
+	border: 5px solid lightpink;
+	border-radius: 15px;
+	font-size: 1.7rem;
+	color: dimgray;
+	padding: 2rem 2rem 2rem 3rem;
+	line-height: 1.5em;
+	text-align: left;
+}
+
+.columnhead {
+	text-transform: uppercase;
+}
+
+.two {
+	margin: 0 3rem;
+}
+
+
+footer {
+	height: 6rem;
+	background-color: lightblue;
+}
+
+.data, .tag {
+	width: 45%;
+	display: inline-block;
+	font-size: 2rem;
+	color: gray;
+	line-height: 6rem;
+}
+
+.data {
+	margin-left: 7rem;
+}
+.tag {
+	text-align: right;
+}
