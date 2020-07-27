@@ -1,0 +1,60 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+ 	padding: 0;
+ }
+
+html {
+	font-size: 10px;
+}
+
+.body {
+	width: 37.5rem;
+	font-family: Helvetica;
+}
+
+.header, .footer {
+	height: 10rem;
+	background-color: navy;
+	font-size: 1.5rem;
+	line-height: 10rem;
+	padding-left: 3rem;
+	color: white;
+}
+
+.main_section {
+	height: 82rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.content {
+	width: 33rem;
+	height: 16.5rem;
+	border: 3px solid black;
+}
+
+.text {
+	font-size: 2.5rem;
+	line-height: 4rem;
+	position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align:center;
+}
+
+@media screen and (min-width: 66.7rem) {
+	.body {
+		height: 37.5rem;
+		width: 66.7rem;
+	}
+
+	.main_section {
+		height: 35.5rem;
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+	}
+}
