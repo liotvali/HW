@@ -1,0 +1,155 @@
+body, html {
+  height: 100%;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+ 	padding: 0;
+ }
+
+html {
+	font-size: 10px;
+	font-family: Helvetica;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.header, .footer {
+	width: 100%;
+	height: 9rem;
+	background-color: #F8BFC7;
+	font-weight: bold;
+	font-size: 2.5rem;
+	line-height: 9rem;
+	text-transform: uppercase;
+}
+
+.heading {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.links {
+	width: 49%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.menu {
+	margin-right: 5rem;
+}
+
+.image {
+	width: 100%;
+	background-image: url(../img/111.png);
+	display: flex;	
+	background-repeat: no-repeat;
+	height: 64rem;
+ 	background-position: center;
+  	background-size: cover;
+}
+
+.report {
+	height: 20rem;
+	background-color: lightblue;
+	font-size: 5rem;
+	color: #FEB700;
+	line-height: 11rem;
+	text-transform: uppercase;
+	display: flex;
+	justify-content: center;
+	padding-top: 4rem;
+}	
+
+.tag, .date {
+	width: 46%;
+	display: inline-block;
+}
+
+.tag {
+	margin-left: 5rem;
+}
+.date {
+	text-align: right;
+}
+
+form {
+	position: absolute;
+	left: 5rem;
+	margin-top: 6rem;
+	width: 23%;
+	height: 40rem;	
+	border: 4px solid pink;
+	border-radius: 10px;
+	background-color: ivory;
+}
+
+fieldset {
+  	border: 0;
+  	margin: 0;
+  	padding: 0;
+}
+
+input, select, textarea {
+	width: 90%;
+	margin: auto;
+	display: block;
+	font-size: 2rem;
+	color: pink;
+	border: 3px solid pink;
+}
+
+label {
+	display: block;
+	width: 90%;
+	margin: auto;
+	color: gray;
+}
+
+span {
+	color: gray;
+}
+
+input, select {
+	height: 3rem;
+}
+
+label, span {
+	line-height: 4rem;
+	font-size: 1.8rem;
+}
+
+input:focus, select:focus, textarea:focus {
+	outline-color: pink;
+}
+
+input[type="checkbox"] {
+	display: inline-block;
+	width: 25%;
+	vertical-align: middle;
+}
+
+textarea {
+	height: 10rem;
+}
+
+input[type="submit"] {
+	height: 3.5rem;
+	width: 80%;
+	margin-top: 2rem;
+	background-color: mistyrose;
+	color: pink;
+	border: 4px solid pink;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: pink;
+	color: mistyrose;
+}
